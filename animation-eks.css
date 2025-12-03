@@ -1,0 +1,36 @@
+@charset "UTF-8";
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #f28ecd;
+    animation-name: movebox;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+@keyframes movebox{
+    0%{
+        transform: translateX(0px) translateY(0px)rotate(0deg);
+        
+    }
+    25%{transform: translateX(1200px) translateY(0px)rotate(90deg);
+        background-color: antiquewhite;
+    
+    }
+    
+    50%{transform: translateX(1200px) translateY(600px)rotate(180deg);
+        background-color: blueviolet;
+
+    }
+
+    75%{transform: translateX(0px) translateY(600px)rotate(270deg);
+        background-color: black;
+
+    }
+    100%{transform: translateX(0px) translateY(0px)rotate(360deg);
+        background-color: aqua;
+
+    }
+       
+    }
+
